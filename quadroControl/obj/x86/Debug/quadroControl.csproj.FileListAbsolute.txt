@@ -1,0 +1,9 @@
+E:\MIKROCPP\quadroControl\quadroControl\bin\Debug\quadroControl.exe
+E:\MIKROCPP\quadroControl\quadroControl\bin\Debug\quadroControl.pdb
+E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\quadroControl.Form1.resources
+E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\quadroControl.Properties.Resources.resources
+E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\quadroControl.exe
+E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\quadroControl.pdb
