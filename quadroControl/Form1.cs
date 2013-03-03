@@ -55,7 +55,7 @@ namespace quadroControl
             chars[0] = 0;
              */ 
 
-            Byte[] t = ascii.GetBytes(textBox1.Text);
+            Byte[] t = ascii.GetBytes(dataForSendingTxtBox.Text);
 
             /*int i;
             for (i = 0; i < Math.Min(t.Length, 32); i++)

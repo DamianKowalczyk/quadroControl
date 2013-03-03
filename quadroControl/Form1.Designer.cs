@@ -28,77 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.label1 = new System.Windows.Forms.Label();
+            this.dataForSendingTxtBox = new System.Windows.Forms.TextBox();
+            this.sentDataTextBox = new System.Windows.Forms.TextBox();
+            this.offset1TrackBar = new System.Windows.Forms.TrackBar();
+            this.EngineOffsetLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.offset1TextBox = new System.Windows.Forms.TextBox();
+            this.offset2TextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.offset2TrackBar = new System.Windows.Forms.TrackBar();
+            this.offset3TextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.offset3TrackBar = new System.Windows.Forms.TrackBar();
+            this.offset4TextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.trackBar4 = new System.Windows.Forms.TrackBar();
-            this.button1 = new System.Windows.Forms.Button();
-            this.trackBar5 = new System.Windows.Forms.TrackBar();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.offset4TrackBar = new System.Windows.Forms.TrackBar();
+            this.setOffsetButton = new System.Windows.Forms.Button();
+            this.setPowerTrackBar = new System.Windows.Forms.TrackBar();
+            this.PowerLabel = new System.Windows.Forms.Label();
+            this.setPowerButton = new System.Windows.Forms.Button();
+            this.powerTextBox = new System.Windows.Forms.TextBox();
+            this.startButton = new System.Windows.Forms.Button();
+            this.stopButton = new System.Windows.Forms.Button();
+            this.sendButton = new System.Windows.Forms.Button();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset1TrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset2TrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset3TrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset4TrackBar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.setPowerTrackBar)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // dataForSendingTxtBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(16, 122);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 20);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.dataForSendingTxtBox.Location = new System.Drawing.Point(16, 122);
+            this.dataForSendingTxtBox.Name = "dataForSendingTxtBox";
+            this.dataForSendingTxtBox.Size = new System.Drawing.Size(148, 20);
+            this.dataForSendingTxtBox.TabIndex = 0;
+            this.dataForSendingTxtBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // sentDataTextBox
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox2.Location = new System.Drawing.Point(16, 148);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 43);
-            this.textBox2.TabIndex = 1;
+            this.sentDataTextBox.BackColor = System.Drawing.SystemColors.Control;
+            this.sentDataTextBox.Location = new System.Drawing.Point(16, 148);
+            this.sentDataTextBox.Multiline = true;
+            this.sentDataTextBox.Name = "sentDataTextBox";
+            this.sentDataTextBox.Size = new System.Drawing.Size(148, 43);
+            this.sentDataTextBox.TabIndex = 1;
             // 
-            // trackBar1
+            // offset1TrackBar
             // 
-            this.trackBar1.Location = new System.Drawing.Point(16, 247);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar1.Size = new System.Drawing.Size(45, 224);
-            this.trackBar1.TabIndex = 2;
+            this.offset1TrackBar.Location = new System.Drawing.Point(16, 247);
+            this.offset1TrackBar.Maximum = 100;
+            this.offset1TrackBar.Name = "offset1TrackBar";
+            this.offset1TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.offset1TrackBar.Size = new System.Drawing.Size(45, 224);
+            this.offset1TrackBar.TabIndex = 2;
             // 
-            // label1
+            // EngineOffsetLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 205);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Engine offset";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.EngineOffsetLabel.AutoSize = true;
+            this.EngineOffsetLabel.Location = new System.Drawing.Point(13, 205);
+            this.EngineOffsetLabel.Name = "EngineOffsetLabel";
+            this.EngineOffsetLabel.Size = new System.Drawing.Size(69, 13);
+            this.EngineOffsetLabel.TabIndex = 3;
+            this.EngineOffsetLabel.Text = "Engine offset";
+            this.EngineOffsetLabel.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -111,23 +111,23 @@
             this.label2.Text = "1";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox3
+            // offset1TextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(16, 477);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(45, 20);
-            this.textBox3.TabIndex = 5;
-            this.textBox3.Text = "0,00%";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.offset1TextBox.Location = new System.Drawing.Point(16, 477);
+            this.offset1TextBox.Name = "offset1TextBox";
+            this.offset1TextBox.Size = new System.Drawing.Size(45, 20);
+            this.offset1TextBox.TabIndex = 5;
+            this.offset1TextBox.Text = "0,00%";
+            this.offset1TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox4
+            // offset2TextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(67, 477);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(45, 20);
-            this.textBox4.TabIndex = 8;
-            this.textBox4.Text = "0,00%";
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.offset2TextBox.Location = new System.Drawing.Point(67, 477);
+            this.offset2TextBox.Name = "offset2TextBox";
+            this.offset2TextBox.Size = new System.Drawing.Size(45, 20);
+            this.offset2TextBox.TabIndex = 8;
+            this.offset2TextBox.Text = "0,00%";
+            this.offset2TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
@@ -139,23 +139,23 @@
             this.label3.TabIndex = 7;
             this.label3.Text = "2";
             // 
-            // trackBar2
+            // offset2TrackBar
             // 
-            this.trackBar2.Location = new System.Drawing.Point(67, 247);
-            this.trackBar2.Maximum = 100;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar2.Size = new System.Drawing.Size(45, 224);
-            this.trackBar2.TabIndex = 6;
+            this.offset2TrackBar.Location = new System.Drawing.Point(67, 247);
+            this.offset2TrackBar.Maximum = 100;
+            this.offset2TrackBar.Name = "offset2TrackBar";
+            this.offset2TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.offset2TrackBar.Size = new System.Drawing.Size(45, 224);
+            this.offset2TrackBar.TabIndex = 6;
             // 
-            // textBox5
+            // offset3TextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(118, 477);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(45, 20);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.Text = "0,00%";
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.offset3TextBox.Location = new System.Drawing.Point(118, 477);
+            this.offset3TextBox.Name = "offset3TextBox";
+            this.offset3TextBox.Size = new System.Drawing.Size(45, 20);
+            this.offset3TextBox.TabIndex = 11;
+            this.offset3TextBox.Text = "0,00%";
+            this.offset3TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label4
             // 
@@ -167,23 +167,23 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "3";
             // 
-            // trackBar3
+            // offset3TrackBar
             // 
-            this.trackBar3.Location = new System.Drawing.Point(118, 247);
-            this.trackBar3.Maximum = 100;
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar3.Size = new System.Drawing.Size(45, 224);
-            this.trackBar3.TabIndex = 9;
+            this.offset3TrackBar.Location = new System.Drawing.Point(118, 247);
+            this.offset3TrackBar.Maximum = 100;
+            this.offset3TrackBar.Name = "offset3TrackBar";
+            this.offset3TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.offset3TrackBar.Size = new System.Drawing.Size(45, 224);
+            this.offset3TrackBar.TabIndex = 9;
             // 
-            // textBox6
+            // offset4TextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(169, 477);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(45, 20);
-            this.textBox6.TabIndex = 14;
-            this.textBox6.Text = "0,00%";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.offset4TextBox.Location = new System.Drawing.Point(169, 477);
+            this.offset4TextBox.Name = "offset4TextBox";
+            this.offset4TextBox.Size = new System.Drawing.Size(45, 20);
+            this.offset4TextBox.TabIndex = 14;
+            this.offset4TextBox.Text = "0,00%";
+            this.offset4TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label5
             // 
@@ -195,87 +195,87 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "4";
             // 
-            // trackBar4
+            // offset4TrackBar
             // 
-            this.trackBar4.Location = new System.Drawing.Point(169, 247);
-            this.trackBar4.Maximum = 100;
-            this.trackBar4.Name = "trackBar4";
-            this.trackBar4.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar4.Size = new System.Drawing.Size(45, 224);
-            this.trackBar4.TabIndex = 12;
+            this.offset4TrackBar.Location = new System.Drawing.Point(169, 247);
+            this.offset4TrackBar.Maximum = 100;
+            this.offset4TrackBar.Name = "offset4TrackBar";
+            this.offset4TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.offset4TrackBar.Size = new System.Drawing.Size(45, 224);
+            this.offset4TrackBar.TabIndex = 12;
             // 
-            // button1
+            // setOffsetButton
             // 
-            this.button1.Location = new System.Drawing.Point(139, 503);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 15;
-            this.button1.Text = "set";
-            this.button1.UseVisualStyleBackColor = true;
+            this.setOffsetButton.Location = new System.Drawing.Point(139, 503);
+            this.setOffsetButton.Name = "setOffsetButton";
+            this.setOffsetButton.Size = new System.Drawing.Size(75, 23);
+            this.setOffsetButton.TabIndex = 15;
+            this.setOffsetButton.Text = "set";
+            this.setOffsetButton.UseVisualStyleBackColor = true;
             // 
-            // trackBar5
+            // setPowerTrackBar
             // 
-            this.trackBar5.Location = new System.Drawing.Point(16, 576);
-            this.trackBar5.Maximum = 100;
-            this.trackBar5.Name = "trackBar5";
-            this.trackBar5.Size = new System.Drawing.Size(293, 45);
-            this.trackBar5.TabIndex = 16;
+            this.setPowerTrackBar.Location = new System.Drawing.Point(16, 576);
+            this.setPowerTrackBar.Maximum = 100;
+            this.setPowerTrackBar.Name = "setPowerTrackBar";
+            this.setPowerTrackBar.Size = new System.Drawing.Size(293, 45);
+            this.setPowerTrackBar.TabIndex = 16;
             // 
-            // label6
+            // PowerLabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(16, 542);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 13);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Power";
+            this.PowerLabel.AutoSize = true;
+            this.PowerLabel.Location = new System.Drawing.Point(16, 542);
+            this.PowerLabel.Name = "PowerLabel";
+            this.PowerLabel.Size = new System.Drawing.Size(37, 13);
+            this.PowerLabel.TabIndex = 17;
+            this.PowerLabel.Text = "Power";
             // 
-            // button2
+            // setPowerButton
             // 
-            this.button2.Location = new System.Drawing.Point(234, 627);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "set";
-            this.button2.UseVisualStyleBackColor = true;
+            this.setPowerButton.Location = new System.Drawing.Point(234, 627);
+            this.setPowerButton.Name = "setPowerButton";
+            this.setPowerButton.Size = new System.Drawing.Size(75, 23);
+            this.setPowerButton.TabIndex = 18;
+            this.setPowerButton.Text = "set";
+            this.setPowerButton.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // powerTextBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(159, 627);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(55, 23);
-            this.textBox7.TabIndex = 19;
-            this.textBox7.Text = "0,00%";
-            this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.powerTextBox.Location = new System.Drawing.Point(159, 627);
+            this.powerTextBox.Multiline = true;
+            this.powerTextBox.Name = "powerTextBox";
+            this.powerTextBox.Size = new System.Drawing.Size(55, 23);
+            this.powerTextBox.TabIndex = 19;
+            this.powerTextBox.Text = "0,00%";
+            this.powerTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // button3
+            // startButton
             // 
-            this.button3.Location = new System.Drawing.Point(196, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(93, 27);
-            this.button3.TabIndex = 20;
-            this.button3.Text = "Start";
-            this.button3.UseVisualStyleBackColor = true;
+            this.startButton.Location = new System.Drawing.Point(196, 12);
+            this.startButton.Name = "startButton";
+            this.startButton.Size = new System.Drawing.Size(93, 27);
+            this.startButton.TabIndex = 20;
+            this.startButton.Text = "Start";
+            this.startButton.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // stopButton
             // 
-            this.button4.Location = new System.Drawing.Point(196, 45);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(93, 27);
-            this.button4.TabIndex = 21;
-            this.button4.Text = "Stop";
-            this.button4.UseVisualStyleBackColor = true;
+            this.stopButton.Location = new System.Drawing.Point(196, 45);
+            this.stopButton.Name = "stopButton";
+            this.stopButton.Size = new System.Drawing.Size(93, 27);
+            this.stopButton.TabIndex = 21;
+            this.stopButton.Text = "Stop";
+            this.stopButton.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // sendButton
             // 
-            this.button5.Location = new System.Drawing.Point(196, 119);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "send";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.sendButton.Location = new System.Drawing.Point(196, 119);
+            this.sendButton.Name = "sendButton";
+            this.sendButton.Size = new System.Drawing.Size(75, 23);
+            this.sendButton.TabIndex = 22;
+            this.sendButton.Text = "send";
+            this.sendButton.UseVisualStyleBackColor = true;
+            this.sendButton.Click += new System.EventHandler(this.button5_Click);
             // 
             // radioButton1
             // 
@@ -355,37 +355,37 @@
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.trackBar5);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.sendButton);
+            this.Controls.Add(this.stopButton);
+            this.Controls.Add(this.startButton);
+            this.Controls.Add(this.powerTextBox);
+            this.Controls.Add(this.setPowerButton);
+            this.Controls.Add(this.PowerLabel);
+            this.Controls.Add(this.setPowerTrackBar);
+            this.Controls.Add(this.setOffsetButton);
+            this.Controls.Add(this.offset4TextBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.trackBar4);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.offset4TrackBar);
+            this.Controls.Add(this.offset3TextBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.trackBar3);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.offset3TrackBar);
+            this.Controls.Add(this.offset2TextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.trackBar2);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.offset2TrackBar);
+            this.Controls.Add(this.offset1TextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.trackBar1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.EngineOffsetLabel);
+            this.Controls.Add(this.offset1TrackBar);
+            this.Controls.Add(this.sentDataTextBox);
+            this.Controls.Add(this.dataForSendingTxtBox);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset1TrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset2TrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset3TrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.offset4TrackBar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.setPowerTrackBar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -393,29 +393,29 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox dataForSendingTxtBox;
+        private System.Windows.Forms.TextBox sentDataTextBox;
+        private System.Windows.Forms.TrackBar offset1TrackBar;
+        private System.Windows.Forms.Label EngineOffsetLabel;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox offset1TextBox;
+        private System.Windows.Forms.TextBox offset2TextBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TrackBar trackBar2;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TrackBar offset2TrackBar;
+        private System.Windows.Forms.TextBox offset3TextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TrackBar trackBar3;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TrackBar offset3TrackBar;
+        private System.Windows.Forms.TextBox offset4TextBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TrackBar trackBar4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TrackBar trackBar5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.TrackBar offset4TrackBar;
+        private System.Windows.Forms.Button setOffsetButton;
+        private System.Windows.Forms.TrackBar setPowerTrackBar;
+        private System.Windows.Forms.Label PowerLabel;
+        private System.Windows.Forms.Button setPowerButton;
+        private System.Windows.Forms.TextBox powerTextBox;
+        private System.Windows.Forms.Button startButton;
+        private System.Windows.Forms.Button stopButton;
+        private System.Windows.Forms.Button sendButton;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
