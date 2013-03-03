@@ -64,5 +64,10 @@ namespace quadroControl
 
             theReferenceUsbDevice.send(t);
         }
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
