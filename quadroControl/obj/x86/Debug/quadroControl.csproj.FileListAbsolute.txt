@@ -7,3 +7,4 @@ E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\GenerateResource.read.1.tl
 E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\quadroControl.exe
 E:\MIKROCPP\quadroControl\quadroControl\obj\x86\Debug\quadroControl.pdb
+E:\MIKROCPP\quadroControl\quadroControl\bin\Debug\usbGenericHidCommunications.dll

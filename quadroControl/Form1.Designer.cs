@@ -91,6 +91,7 @@
             this.offset1TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.offset1TrackBar.Size = new System.Drawing.Size(45, 224);
             this.offset1TrackBar.TabIndex = 2;
+            this.offset1TrackBar.Scroll += new System.EventHandler(this.offset1TrackBar_Scroll);
             // 
             // EngineOffsetLabel
             // 
@@ -149,6 +150,7 @@
             this.offset2TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.offset2TrackBar.Size = new System.Drawing.Size(45, 224);
             this.offset2TrackBar.TabIndex = 6;
+            this.offset2TrackBar.Scroll += new System.EventHandler(this.offset2TrackBar_Scroll);
             // 
             // offset3TextBox
             // 
@@ -177,6 +179,7 @@
             this.offset3TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.offset3TrackBar.Size = new System.Drawing.Size(45, 224);
             this.offset3TrackBar.TabIndex = 9;
+            this.offset3TrackBar.Scroll += new System.EventHandler(this.offset3TrackBar_Scroll);
             // 
             // offset4TextBox
             // 
@@ -205,6 +208,7 @@
             this.offset4TrackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.offset4TrackBar.Size = new System.Drawing.Size(45, 224);
             this.offset4TrackBar.TabIndex = 12;
+            this.offset4TrackBar.Scroll += new System.EventHandler(this.offset4TrackBar_Scroll);
             // 
             // setOffsetButton
             // 
@@ -222,6 +226,7 @@
             this.setPowerTrackBar.Name = "setPowerTrackBar";
             this.setPowerTrackBar.Size = new System.Drawing.Size(293, 45);
             this.setPowerTrackBar.TabIndex = 16;
+            this.setPowerTrackBar.Scroll += new System.EventHandler(this.setPowerTrackBar_Scroll);
             // 
             // PowerLabel
             // 
@@ -269,6 +274,7 @@
             this.stopButton.TabIndex = 21;
             this.stopButton.Text = "Stop";
             this.stopButton.UseVisualStyleBackColor = true;
+            this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
             // 
             // sendButton
             // 

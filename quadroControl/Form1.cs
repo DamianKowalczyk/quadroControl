@@ -67,7 +67,8 @@ namespace quadroControl
 
         private void startButton_Click(object sender, EventArgs e)
         {
-
+            Byte[] t = {1}; // send start command
+            theReferenceUsbDevice.send(t);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -79,5 +80,67 @@ namespace quadroControl
         {
 
         }
+
+        private void offset1TrackBar_Scroll(object sender, EventArgs e)
+        {
+            //Byte[] t = ascii.GetBytes(dataForSendingTxtBox.Text);
+            //theReferenceUsbDevice.send(t);
+            offset1TextBox.Text = offset1TrackBar.Value.ToString()+ ",00%"; //display value into appriopriate textBox
+        }
+
+        private void stopButton_Click(object sender, EventArgs e)
+        {
+            Byte[] t = {2}; // send safeOff command
+            theReferenceUsbDevice.send(t);
+        }
+                
+        private void offset2TrackBar_Scroll(object sender, EventArgs e)
+        {            
+            String val = offset2TrackBar.Value.ToString();
+            Byte[] tabVal = normalizeValue(val);
+            //sentDataTextBox.Text = tabVal[0].ToString();
+            offset2TextBox.Text = offset2TrackBar.Value.ToString() + ",00%"; //display value into appriopriate textBox
+        }
+
+        private void offset3TrackBar_Scroll(object sender, EventArgs e)
+        {
+            
+            offset3TextBox.Text = offset3TrackBar.Value.ToString() + ",00%"; //display value into appriopriate textBox
+        }
+
+        private void offset4TrackBar_Scroll(object sender, EventArgs e)
+        {
+           
+            offset4TextBox.Text = offset4TrackBar.Value.ToString() + ",00%"; //display value into appriopriate textBox
+        }
+
+        private void setPowerTrackBar_Scroll(object sender, EventArgs e)
+        {
+            powerTextBox.Text = setPowerTrackBar.Value.ToString() + ",00%";
+        }
+
+        private Byte[] normalizeValue(String value)
+        { 
+            UInt16 tmpVal = Convert.ToUInt16(value);
+            tmpVal *= 25;   // 100 should give 2500 of ..
+
+            byte[] tabVal = new byte[2];
+            tabVal[0] = (byte) (tmpVal / 256);
+            tabVal[1] = (byte) (tmpVal & 255u);            
+            
+            return tabVal;
+        }
+
+        private void sendValuesFromOffsetTrackBars() 
+        {
+            
+            
+
+                       
+        }
+
+
+
+        
     }
 }
